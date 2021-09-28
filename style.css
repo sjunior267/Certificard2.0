@@ -12,6 +12,7 @@ body {
   border-radius: 20px;
   box-shadow: 6px 6px 6px #0e1d2f;
   padding: 64px;
+ 
 }
 .cabecalho {
   display: flex;
@@ -60,14 +61,20 @@ body {
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
   border-radius: 20px;
+  min-width: 750px;
+  
+  
 }
 .projetos-titulo {
+  list-style: none;
   font-weight: 700;
   font-size: 36px;
-  list-style: none;
+  margin-top: 0px;
+  
 }
 
 .projetos-item {
+  
   list-style-type: none;
   font-size: 24px;
   font-weight: 400;
@@ -77,6 +84,30 @@ body {
 .projetos-item a {
   text-decoration: none;
   color: #1c1c1c;
+}
+
+.globo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.conquistas{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  max-width: 100px;
+  margin-left: 24px;
+  align-items: center;
+}
+.conquistas img{
+  max-height: 160px;
+  max-width: 110px;
+  margin-top: 20px;
 }
 
 .dark {
